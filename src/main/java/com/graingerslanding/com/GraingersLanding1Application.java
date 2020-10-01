@@ -9,5 +9,5 @@ public class GraingersLanding1Application {
 	public static void main(String[] args) {
 		SpringApplication.run(GraingersLanding1Application.class, args);
 	}
-
+ 
 }
