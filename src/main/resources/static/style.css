@@ -16,14 +16,15 @@ font-weight: 300;
 
 header {
 background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
-filter: drop-shadow(5px 5px 5px #222);
+filter: drop-shadow(5px 5px 5px #222); 
 }
+
 header::after {
 	
 	content: '';
 	display: table;
 	clear: both;
-	
+	 
 }
 
 .logo {
@@ -88,6 +89,7 @@ filter: drop-shadow(5px 5px 5px #222);
   padding-top: 0px;
   padding-right: 0x;
   padding-left: 0px;
+  
 
 }
 
@@ -99,6 +101,44 @@ h1 {
 	
 }
 
+#h12 {
+		font-family: "Times New Roman", Times, serif;
+	color: #4b6cb7;
+	padding-top: 20px;
+	text-align: center;
+	
+}
+
+p {
+	padding-right: 150px;
+	padding-left: 150px;
+	text-align: center;
+	font-size: 1.2em;
+	 
+}
+
+
+
+#houses {
+	    float: left;
+        max-width: 50%;
+        max-height: 70%;
+        display: block;
+        filter: drop-shadow(5px 5px 5px #222);
+        padding-left: - 200px;
+}
+
+#checks {
+	float: right;
+	padding-bottom: 1000px;
+	padding-left: -800;
+	
+}
+
+#villa {
+	float: right;
+	
+}
 
 
 
